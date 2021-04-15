@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header class="header-container" id="home">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-itens">
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#sobre">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#projetos">Projetos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <img id='profile' src="./img/I.jpg" alt="">
+        <h1>Hiero Salim</h1>
+        <h2>Full Stack developer</h2>
+        <div class="social-media">
+            <a href="https://br.linkedin.com/public-profile/in/hiero-salim-b72bba182" target="_blank">Linkedin</a>
+            <a href="https://github.com/HieroSalim" target="_blank">Github</a>
+        </div>
+    </header>
+    <main class="container" id="projetos">
+        <div class="card-container">
+            <a href="https://github.com/HieroSalim/RacetrackManager" target="_blank">
+                <div class="card" id="race">
+                    <div class="card-wrapper">
+                        <h2>Racetrack Manager</h2>
+                        <p>Vem ver!</p>
+                    </div>
+                </div>
+            </a>
+            <div class="card-text">
+                <p>Esse projeto foi desenvolvido em Java durante o 2°Semestre de ADS
+                 e integrado com um banco de dados MySQL. Fiquei responsável pelo back-end e elaboração do banco.</p> 
+                <p>É um sistema de gerenciamento para um autódromo.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="card-container">
+            <a href="https://github.com/sont-group/Estrutura-de-Dados" target="_blank" >
+                <div class="card" id="point">
+                    <div class="card-wrapper">
+                        <h2>Point Finder</h2>
+                        <p>Vem ver!</p>
+                    </div>
+                </div>
+            </a>
+            <div class="card-text">
+                <p>Esse projeto foi desenvolvido em C# durante o 3° Semestre de ADS, para a matéria de estrutura de dados. 
+                Todos os dados são manipulados na memória do computador. Foi realizado em colaboração 
+                com a turma toda e separado em 5 módulos diferentes. Minha equipe era responsável pelo módulo de alimentação.</p> 
+                <p>O módulo de alimentação apresenta os restaurantes disponíveis na cidade, seus cardápios e também possibilita a
+                     realização de pedidos.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="card-container">
+            <a href="https://github.com/HieroSalim/DiNote" target="_blank">
+                <div class="card" id="dinoco">
+                    <div class="card-wrapper">
+                        <h2>Dinote</h2>
+                        <p>Vem ver!</p>
+                    </div>
+                </div>
+            </a>
+            <div class="card-text">
+                Esse projeto foi um gatilho para o aprendizado de novas tecnologias e foi realizado no 4° Semestre de ADS. Funciona 
+                como um planner/agenda para que estudantes utilizem no seu cotidiano.
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        Elaborado por Hiero Salim
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
